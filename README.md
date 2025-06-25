@@ -53,6 +53,19 @@ squeue -u $USER
 scancel -u $USER
 ```
 
+## Downloading commonly used third-party wheels
+
+```bash
+# flash-attn 2.7.4
+wget https://pypi.anaconda.org/guanning/simple/flash-attn/2.7.4/flash_attn-2.7.4-cp310-cp310-linux_aarch64.whl
+# xformers 0.0.30
+wget https://pypi.anaconda.org/guanning/simple/xformers/0.0.30%2B836cd905.d20250426/xformers-0.0.30%2B836cd905.d20250426-cp310-cp310-linux_aarch64.whl
+# vllm 0.8.4
+wget https://pypi.anaconda.org/guanning/simple/vllm/0.8.4/vllm-0.8.4-cp310-cp310-linux_aarch64.whl
+# triton 3.3.0
+wget https://pypi.anaconda.org/guanning/simple/triton/3.3.0%2Bgit01270ae2/triton-3.3.0%2Bgit01270ae2-cp310-cp310-linux_aarch64.whl
+```
+
 ## Installation on DeltaAI
 
 1. To login the DeltaAI cluster, please regiister an account and then setup the 2 factor authentication.
