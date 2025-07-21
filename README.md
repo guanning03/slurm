@@ -1,3 +1,9 @@
+# Solving Proxy Issues
+
+```bash
+export WANDB_BASE_URL=https://api.wandb-cn.top # append to ~/.bashrc
+```
+
 # Running Experiments on Slurm Server
 
 ## Fetch GPUs
